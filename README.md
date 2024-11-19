@@ -2,7 +2,7 @@
   💻<br>Portfólio - Bruna Zunzarren
 </h1>
 
-![Resultado final do projeto](iamagem da capa)
+![[Resultado final do projeto](https://openspaceoficial.github.io/#s-home)](iamagem da capa)
 
 <h4 align="center"><a href="http://127.0.0.1:5500/index.html">Clique para visitar o projeto</a></h4>
 

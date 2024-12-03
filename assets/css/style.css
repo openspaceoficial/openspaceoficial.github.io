@@ -780,6 +780,7 @@ input:checked+.slider:before {
     text-align: right;
 }
 
+
 /* Fim s-avaliacao */
 
 /* Início s-estatisticas */
@@ -853,7 +854,8 @@ input:checked+.slider:before {
 
 /* Início s-contato */
 #s-contato {
-    background-color: #151515;
+    
+    background-color: #111;
     padding: 150px 48px;
 
     .light-mode & {

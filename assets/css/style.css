@@ -90,8 +90,8 @@ header {
 }
 
 .montserrat {
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
 }
 
 header h2 {
@@ -253,8 +253,8 @@ input:checked+.slider:before {
     .dropdown-content {
         width: 120px;
     }
-    
-    .dropdown-content a{
+
+    .dropdown-content a {
         font-size: 1rem;
     }
 }
@@ -292,8 +292,8 @@ input:checked+.slider:before {
     .dropdown-content {
         width: 100px;
     }
-    
-    .dropdown-content a{
+
+    .dropdown-content a {
         font-size: 0.2rem;
     }
 }
@@ -402,6 +402,7 @@ input:checked+.slider:before {
     padding: 20px 45px;
     max-width: 325px
 }
+
 #s-services {
     padding: 96px 48px;
     background-color: #151515;
@@ -854,7 +855,7 @@ input:checked+.slider:before {
 
 /* Início s-contato */
 #s-contato {
-    
+
     background-color: #111;
     padding: 150px 48px;
 
@@ -878,7 +879,7 @@ input:checked+.slider:before {
     }
 }
 
-#s-contato .grid-layout #blocoDois h3{
+#s-contato .grid-layout #blocoDois h3 {
     text-align: center;
 }
 
@@ -921,13 +922,13 @@ input:checked+.slider:before {
     cursor: pointer;
 }
 
-#s-contato .grid-layout #redes img{
+#s-contato .grid-layout #redes img {
     height: 30px;
     width: 30px;
     margin-right: 5px;
 }
 
-#s-contato .grid-layout #redes{
+#s-contato .grid-layout #redes {
     display: flex;
 }
 
@@ -937,9 +938,7 @@ input:checked+.slider:before {
     }
 
     #s-contato #blocoUm {
-        opacity: 0;
-        height: 0;
-        width: 0;
+        display: none;
     }
 }
 
@@ -1017,7 +1016,7 @@ footer #direitos {
 }
 
 @media screen and (max-width: 700px) {
-    footer .grid-layout #teste{
+    footer .grid-layout #teste {
         display: none;
     }
 }

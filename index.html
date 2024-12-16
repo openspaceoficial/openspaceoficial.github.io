@@ -38,28 +38,24 @@
   <header>
     <div class="grid-layout">
       <nav>
-        <h2>OPEN SPACE</h2>
-
+        <a href="index.html"><h2>OPEN SPACE</h2></a>
         <ul class="nav-list">
           <li class="aparecer">
             <a href="https://www.instagram.com/openspace.oficial/" rel="noopener" target="_blank">Instagram</a>
           </li>
-
           <li class="aparecer">
-            <a href="https://wa.me/5531983021049?text=Olá,%20gostaria%20de%20mais%20informações!" rel="noopener" target="_blank">Whatsapp</a>
+            <a href="https://wa.me/5531983021049?text=Olá,%20gostaria%20de%20mais%20informações!" rel="noopener"
+              target="_blank">Whatsapp</a>
           </li>
-
           <li class="aparecer">
             <a href="serviço.html" rel="noopener" target="_blank">eBook</a>
           </li>
-
           <li>
             <label class="switch">
               <input type="checkbox" onclick="light()">
               <span class="slider"></span>
-            </label>
+            </label>            
           </li>
-
           <li>
             <div class="dropdown">
               <button class="dropbtn">Menu</button>
@@ -73,7 +69,6 @@
               </div>
             </div>
           </li>
-
         </ul>
       </nav>
     </div>
@@ -82,27 +77,25 @@
   <main>
     <section id="s-home">
       <div class="grid-layout">
-        <div id="home">
-          <div id="home-container-text">
-            <h1 class="delayMediumReveal">
-              Ajudando empresas a construir
-              <span>produtos digitais</span> de forma moderna e de alta
-              qualidade.
-            </h1>
-
-            <p data-js="typing">
-              Uma mistura de Design, Desenvolvimento Frontend e habilidade
-              profissional que vão destacar seu produto no mercado.
-            </p>
-
-            <a href="https://wa.me/5531983021049" rel="noopener" target="_blank" class="delayExtraBigReveal">
-              Entrar em contato 
+        <div id="home-container-text">
+          <h1>
+            Ajudando empresas a construir
+            <span>produtos digitais</span> de forma moderna e de alta qualidade.
+          </h1>
+          <p>
+            Uma mistura de Design, Desenvolvimento FrontEnd e habilidade profissional que vão destacar seu produto no
+            mercado.
+          </p>
+          <a href="https://wa.me/5531983021049" rel="noopener" target="_blank">
+            Entrar em contato
           </a>
-          </div>
+        </div>
+        <div id="home-image">
+          <img id="homeImage" src="/assets/image/astronautaLogo.png" alt="Equipe de trabalho">
         </div>
       </div>
     </section>
-    
+
 
     <section id="s-services">
       <div class="grid-layout">
@@ -110,12 +103,12 @@
         <div id="services">
           <article class="intervalCardReveal">
             <div>
-              <img src="assets/image/gestao.png" width="100px" height="100px" alt="ícone layers" />
+              <img src="assets/image/social.png" width="100px" height="100px" alt="ícone imagem" />
             </div>
-            <h3>Gestão Inteligente</h3>
+
+            <h3>Social Midia</h3> <!-- AQUI -- FEITO -->
             <p>
-              Tarefas manuais, pilhas de papéis e informações perdidas geram retrabalho e atrasam seus processos.
-              Construa uma operação integrada de ponta a ponta, para melhorar a produtividade da sua equipe.
+              Criamos conteúdo relevante para publicar nas suas redes sociais.
             </p>
           </article>
 
@@ -144,12 +137,12 @@
 
           <article class="intervalCardReveal">
             <div>
-              <img src="assets/image/social.png" width="100px" height="100px" alt="ícone imagem" />
+              <img src="assets/image/gestao.png" width="100px" height="100px" alt="ícone layers" />
             </div>
-
-            <h3>Social Midia</h3>
+            <h3>Gestão Inteligente</h3> <!-- AQUI -->
             <p>
-              Criamos conteúdo relevante para publicar nas suas redes sociais.
+              Tarefas manuais, pilhas de papéis e informações perdidas geram retrabalho e atrasam seus processos.
+              Construa uma operação integrada de ponta a ponta, para melhorar a produtividade da sua equipe.
             </p>
           </article>
         </div>
@@ -220,28 +213,30 @@
 
     <section id="s-avaliacao">
       <div class="grid-layout">
-        <h2 class="delaySmallReveal"><span>Avaliação</span> de nossos clientes</h2>
-
+        <h2><span>Avaliação</span> de nossos clientes</h2>
+    
         <div class="clientes">
-          <div>
+          <div class="card">
             <h3>Pessoa</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum <br> dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-            <img src="assets/image/Group 7.png" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aute irure dolor in reprehenderit in voluptate
+              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+            <div class="rating">
+              ★★★★★
+            </div>
+          </div>
+    
+          <div class="card">
+            <h3>Pessoa</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aute irure dolor in reprehenderit in voluptate
+              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+            <div class="rating">
+              ★★★★☆
+            </div>
           </div>
         </div>
-
-        <div class="clientes" id="cliente2">
-          <h3>Pessoa</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing. Duis aute irure dolor in reprehenderit in voluptate
-            velit esse cillum <br> dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-            sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-          <img src="assets/image/Group 7.png" alt="">
-        </div>
-
       </div>
     </section>
+    
 
     <section id="s-estatisticas">
       <div class="grid-layout">
@@ -270,46 +265,15 @@
       </div>
     </section>
 
-
-    <section id="s-contato">
-      <div class="grid-layout">
-        <div id="blocoUm">
-          <h3 class="delaySmallReveal">Interessado em nossos serviços?</h3>
-          <p>Temos uma equipe de prontidão para atender <br> você. Fale conosco e turbine seu negócio!</p>
-
-          <div id="redes">
-  <a href="https://www.instagram.com/openspace.oficial/" target="_blank">
-    <img src="assets/icons/instagram_logo.svg" alt="Instagram">
-  </a>
-  <a href="https://wa.me/5531983021049?text=Olá,%20gostaria%20de%20mais%20informações!" rel="noopener" target="_blank">
-    <img src="assets/icons/whatsapp-brands-solid.svg" alt="WhatsApp">
-  </a>
-</div>
-
-        </div>
-
-        <div id="blocoDois">
-          <h3 class="delaySmallReveal">Envie uma mensagem!</h3>
-          <form action="">
-            <input type="text" placeholder="Nome" required>
-            <input type="email" name="Email" id="Email" placeholder="Email" required>
-            <textarea name="Mensagem" id="Mensagem" placeholder="Mensagem" rows="5" cols="33" required></textarea>
-            <input type="submit" id="btnEnviar" value="Enviar">
-          </form>
-        </div>
-
-      </div>
-    </section>
-  </main>
-
-  <a href="https://wa.me/5531983021049?text=Olá,%20gostaria%20de%20mais%20informações!" rel="noopener"  target="_blank" id="whatsapp-button">
+  <a href="https://wa.me/5531983021049?text=Olá,%20gostaria%20de%20mais%20informações!" rel="noopener" target="_blank"
+    id="whatsapp-button">
     <img src="assets/image/whatsapp.png" alt="WhatsApp" />
   </a>
 
   <footer>
     <div class="grid-layout">
       <div id="elementos-footer">
-        <h2 id="logo">OPEN SPACE</h2>
+        <h2 id="logo">OPEN SPACE</h2> <!-- AQUI -- FEITO  -->
 
         <div class="indices" id="teste">
           <h2>Menu</h2>
@@ -354,5 +318,4 @@
   <script src="assets/js/hover.js"></script>
 
 </body>
-
 </html>

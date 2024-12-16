@@ -26,4 +26,6 @@ function light() {
       homeImage.style.transform = "translateY(0)";
     }, 100); // Pequeno delay para garantir a animação
   });
+
+  
   

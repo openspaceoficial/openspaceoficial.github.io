@@ -1188,3 +1188,9 @@ footer #direitos {
     transition: transform 0.3s;
     /* Transição suave */
 }
+
+/* Adiciona a cor preta nos ícones SVG no modo claro */
+.light-mode #redes a img {
+    filter: invert(1); /* Inverte as cores do SVG para preto */
+  }
+  

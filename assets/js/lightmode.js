@@ -7,9 +7,9 @@ function light() {
   
     // Verifica se o modo claro está ativado
     if (element.classList.contains("light-mode")) {
-      homeImage.src = "/assets/image/logo-black2.png"; // Altera para a imagem do modo claro
+      homeImage.src = "/assets/image/logo-black.png"; // Altera para a imagem do modo claro
     } else {
-      homeImage.src = "/assets/image/logo-white2.png"; // Volta para a imagem do modo escuro
+      homeImage.src = "/assets/image/logo-white.png"; // Volta para a imagem do modo escuro
     }
   }
   

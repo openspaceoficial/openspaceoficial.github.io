@@ -1193,4 +1193,110 @@ footer #direitos {
 .light-mode #redes a img {
     filter: invert(1); /* Inverte as cores do SVG para preto */
   }
+
+
+  #s-posts {
+    padding: 96px 48px;
+    background-color: #151515;
+}
+
+.light-mode #s-posts {
+    background-color: #fff;
+}
+
+@media screen and (max-width: 992px) {
+    #s-posts {
+        padding: 48px 24px;
+    }
+}
+
+#s-posts .grid-posts h2 {
+    text-align: center;
+    padding-bottom: 24px;
+    color: #fff;
+    font-size: 4rem;
+    font-weight: 500;
+}
+
+.light-mode #s-posts .grid-posts h2 {
+    color: #000;
+}
+
+#s-posts .grid-posts h2 span {
+    color: #007FFF;
+}
+
+#s-posts .grid-posts #posts {
+    display: flex;
+    height: auto;
+    flex-wrap: wrap;
+    margin: 24px 0px;
+}
+
+#s-posts .grid-posts #posts article {
+    background-color: #111;
+    height: auto;
+    padding: 32px;
+    margin: 8px;
+    flex-basis: calc(33% - 20px);
+    flex-grow: 1;
+    border: 1px solid #111;
+    transition: 1s all ease;
+    border: 1px solid #1f1f1f;
+    border-radius: 4px;
+}
+
+.light-mode #s-posts .grid-posts #posts article {
+    background-color: #FBFBFB;
+}
+
+#s-posts .grid-posts #posts article:hover {
+    border: 1px solid #007FFF;
+}
+
+@media screen and (max-width: 1200px) {
+    #s-posts .grid-posts #posts article {
+        flex-basis: calc(50% - 20px);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #s-posts .grid-posts #posts article {
+        flex-basis: calc(100% - 20px);
+    }
+}
+
+#s-posts .grid-posts #posts article div {
+    width: 100%;  /* Agora ocupa toda a largura disponível */
+    height: auto;
+}
+
+#s-posts .grid-posts #posts article div img {
+    width: 100%;  /* Imagem vai ocupar 100% da largura do contêiner */
+    height: auto;  /* Mantém a proporção da imagem */
+    object-fit: cover;  /* Faz com que a imagem cubra o contêiner sem deformação */
+}
+
+#s-posts .grid-posts #posts article h3 {
+    padding: 24px 0px;
+    color: #fff;
+    font-size: 2.4rem;
+    font-weight: 500;
+}
+
+.light-mode #s-posts .grid-posts #posts article h3 {
+    color: #000000;
+}
+
+#s-posts .grid-posts #posts article p {
+    line-height: 3.2rem;
+    color: #9ca3af;
+    font-size: 1.8rem;
+}
+
+.light-mode #s-posts .grid-posts #posts article p {
+    color: #000;
+}
+
+
   
